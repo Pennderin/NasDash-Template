@@ -1,0 +1,18 @@
+# machine-specific + secret material lives only on the NAS copy
+private/
+node_modules/
+*.bak*
+*.log
+homepage/.last-nas-backup
+Thumbs.db
+# built on demand from audiodev.cs
+app/audiodev.exe
+app/winfocus.exe
+# per-machine state and caches
+cam-windows.json
+coms.json
+display-bounds.json
+opacity.json
+widget-state.json
+store-art.json
+art-cache/

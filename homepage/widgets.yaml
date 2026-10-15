@@ -1,0 +1,14 @@
+---
+# Homepage top widgets - https://gethomepage.dev/widgets/
+
+- search:
+    provider: google
+    target: _blank
+
+- openmeteo:
+    label: Weather
+    latitude: <your-coordinates>
+    longitude: <your-coordinates>
+    timezone: Etc/UTC   # your time zone, e.g. America/New_York
+    units: imperial
+    cache: 5
